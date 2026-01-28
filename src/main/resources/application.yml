@@ -1,0 +1,6 @@
+server:
+  port: ${PORT:8081}
+
+spring:
+  redis:
+    url: ${REDIS_URL:redis://localhost:6379}
