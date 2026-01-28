@@ -1,6 +1,5 @@
-server:
-  port: ${PORT:8081}
-
 spring:
   redis:
-    url: ${REDIS_URL:redis://localhost:6379}
+    url: ${REDIS_URL}
+    ssl: true
+  git add application.yml
