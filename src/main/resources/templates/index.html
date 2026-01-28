@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PasteView</title>
+</head>
+<body>
+<form method="post" action="/api/pastes">
+    <textarea name="content" required></textarea>
+    <input type="number" name="ttl_seconds" placeholder="TTL seconds">
+    <input type="number" name="max_views" placeholder="Max views">
+    <button>Create Paste</button>
+</form>
+</body>
+</html>
