@@ -1,4 +1,2 @@
-spring:
-  redis:
-    url: ${REDIS_URL}
-    ssl: true
+server:
+  port: ${PORT:8081}
