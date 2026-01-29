@@ -2,4 +2,3 @@ spring:
   redis:
     url: ${REDIS_URL}
     ssl: true
-  git add application.yml
